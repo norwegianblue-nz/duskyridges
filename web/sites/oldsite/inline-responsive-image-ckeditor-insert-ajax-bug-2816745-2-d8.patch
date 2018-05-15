@@ -1,0 +1,22 @@
+diff --git a/inline_responsive_images.module b/inline_responsive_images.module
+index 5d38b7a..ec2e5a6 100644
+--- a/inline_responsive_images.module
++++ b/inline_responsive_images.module
+@@ -1,6 +1,7 @@
+ <?php
+ use Drupal\Core\Form\FormStateInterface;
+ use Drupal\file\Entity\File;
++use Drupal\editor\Entity\Editor;
+ 
+ /**
+ * Implements hook_help().
+@@ -31,7 +32,8 @@ function inline_responsive_images_help($route_name, \Drupal\Core\Routing\RouteMa
+  */
+ function inline_responsive_images_form_editor_image_dialog_alter(&$form, FormStateInterface $form_state) {
+ 
+-  $filter_format = $form_state->getBuildInfo()['args'][0];
++  $editor = $form_state->getBuildInfo()['args'][0];
++  $filter_format = $editor->getFilterFormat();
+   $filters = $filter_format->filters()->getAll();
+ 
+   $image_element = $form_state->getStorage()['image_element'];

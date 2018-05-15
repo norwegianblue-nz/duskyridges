@@ -1,0 +1,45 @@
+##duskyridges_o:
+##  omega:
+##    allow_clone_for_subtheme: true
+##    allow_enable_disable: true
+##    title: 'Default library for the duskyridges_o theme'
+##    description: 'This includes custom css, fonts and javascript.'
+##    scss: 
+##      style/css/duskyridges_o.css: 'style/scss/duskyridges_o.scss'
+##  version: VERSION
+##  js:
+##    js/duskyridges_o.js: {}
+##  css:
+##    theme:
+##      style/css/duskyridges_o.css: {}
+##    #  fonts/duskyridges_o_fonts.css: {}
+##    layout: 
+##      #style/css/layout/some-layout-file.css: {}
+##    component:
+##      #style/css/components/some-component.css: {}
+##  dependencies:
+##    - core/jquery
+##duskyridges_o_fonts:
+##  omega:
+##    allow_clone_for_subtheme: true
+##    allow_enable_disable: true
+##    title: 'Font library for the duskyridges_o theme'
+##    description: 'WorkSans, Mill-Goudy and Mill-Goudy-Italic'
+##    #scss: 
+##    #  style/css/duskyridges_o.css: 'style/scss/duskyridges_o.scss'
+##  version: VERSION
+##  js:
+##    js/duskyridges_o.js: {}
+##  css:
+##    theme:
+##      #style/css/duskyridges_o.css: {}
+##      fonts/worksans.css: {}
+##      fonts/GoudyStM.css: {}
+##      fonts/GoudyStM-Italic.css: {}
+##    layout: 
+##      #style/css/layout/some-layout-file.css: {}
+##    component:
+##      #style/css/components/some-component.css: {}
+##  dependencies:
+##    - core/jquery
+    

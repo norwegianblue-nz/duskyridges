@@ -1,0 +1,68 @@
+/*
+ * Fonts
+ */
+/* line 5, /style/scss/elements/site-branding.scss */
+/* line 7, /style/scss/elements/site-branding.scss */
+
+/* line 14, /style/scss/elements/site-branding.scss */
+#site-branding {
+  position: relative;
+  margin-top: 20px;
+}
+
+/* line 18, /style/scss/elements/site-branding.scss */
+/* line 22, /style/scss/elements/site-branding.scss */
+#site-branding .site-name-slogan {
+  padding-top: 0;
+}
+
+/* line 28, /style/scss/elements/site-branding.scss */
+#site-branding #logo {
+  float: left;
+  max-width: 90px;
+  height: auto;
+  margin-right: 25px;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+}
+/* line 39, /style/scss/elements/site-branding.scss */
+/* line 43, /style/scss/elements/site-branding.scss */
+#site-branding #logo a {
+  display: block;
+}
+/* line 47, /style/scss/elements/site-branding.scss */
+#site-branding #logo img {
+  display: block;
+}
+
+/* line 54, /style/scss/elements/site-branding.scss */
+/* line 56, /style/scss/elements/site-branding.scss */
+/* line 63, /style/scss/elements/site-branding.scss */
+#site-branding .site-name {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -0.075em;
+  font-family: Georgia, serif;
+  color: #047aab;
+}
+/* line 71, /style/scss/elements/site-branding.scss */
+#site-branding .site-name a {
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  text-decoration: none;
+  color: #047aab;
+}
+/* line 77, /style/scss/elements/site-branding.scss */
+#site-branding .site-name a:hover {
+  color: rgba(4, 122, 171, 0.85);
+}
+
+/* line 83, /style/scss/elements/site-branding.scss */
+#site-branding .site-slogan {
+  color: #777777;
+  font-variant: small-caps;
+}
+
+

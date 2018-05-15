@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the theme duskyridges_o.
+ */
+
+ 
+function duskyridges_o_preprocess_page(&$variables){
+    $node = $variables['node'];
+    if (isset($node->field_bg_image)){
+	$image_id = $variables['node']->field_bg_image[0]->target_id;
+	$image_file  = file_load($image_id);
+        if (isset ($image_file)){
+            $image_public_uri = $image_file->getFileUri();
+            $variables['image_url0'] = file_create_url($image_public_uri);
+        }
+	$image_id = $variables['node']->field_bg_image[1]->target_id;
+	$image_file  = file_load($image_id);
+        if (isset ($image_file)){
+            $image_public_uri = $image_file->getFileUri();
+            $variables['image_url1'] = file_create_url($image_public_uri);
+        }
+    }
+    if($variables['is_front']) {
+        if (isset($node->field_slideshowimg)){
+            $slide = $variables['node']->field_slideshowimg;
+            $variables['slideshowImageList'] = array();
+            foreach ($slide as $s) {
+                $image_id = $s->target_id;
+                $image_file  = file_load($image_id);
+                $image_public_uri = $image_file->getFileUri();
+                $variables['slideshowImageList'][] = file_create_url($image_public_uri);
+            //    $variables['slideshowImageList'][] = $s;
+            }
+        }
+        //print_r($variables['slideshowImageList']);
+    }
+	//print_r($variables['image_url0']);
+	//print_r($variables['image_url1']);
+}
+function duskyridges_o_preprocess_node(&$variables){
+    //kint($variables['node']);
+    //kint($variables);
+    //print_r($variables);
+}
+function duskyridges_o_preprocess_region(&$variables) {
+	//$region = $variables['region'];
+	
+  //var_dump($variables['image']);
+} // END duskyridges_o_preprocess_region

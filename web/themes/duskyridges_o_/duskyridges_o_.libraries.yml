@@ -1,0 +1,26 @@
+duskyridges_o_:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for duskyridges_o_.'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the duskyridges_o_.libraries.yml file.'
+    scss: 
+      style/css/duskyridges_o_.css: 'style/scss/duskyridges_o_.scss'
+  version: VERSION
+  js:
+    # Custom Javascript file for your own JS modifications.
+    # Examples of behaviors in JS file.
+    js/duskyridges_o_.js: {}
+    
+  css:
+    theme:
+      # Custom CSS file to be loaded in all media circumstances
+      style/css/duskyridges_o_.css: {}
+      fonts/worksans.css: {}
+      fonts/GoudyStM.css: {}
+      fonts/GoudyStM-Italic.css: {}
+  dependencies:
+#     - core/modernizr
+#     - core/jquery
+#     - core/drupal
+#     - core/drupalSettings

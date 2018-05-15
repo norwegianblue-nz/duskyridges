@@ -1,0 +1,13 @@
+@import "/sites/teanaufarmstay.co.nz/themes/duskyridges_o/style/css/duskyridges_o.css";
+@import "/sites/teanaufarmstay.co.nz/themes/duskyridges_o/fonts/GoudyStM-Italic.css";
+@import "/sites/teanaufarmstay.co.nz/themes/duskyridges_o/fonts/GoudyStM.css";
+@import "/sites/teanaufarmstay.co.nz/themes/duskyridges_o/fonts/worksans.css";
+@import "elements/forms.css";
+
+body.cke_editable img {
+    max-width: 50%;
+    height: auto;
+}
+body.cke_editable{
+	font-family: 'work_sansextralight', helvetica, sans-serif;
+}

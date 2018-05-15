@@ -1,0 +1,85 @@
+/*
+ * Fonts
+ */
+/*
+ * Apply a natural box layout model to all elements http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+/* line 4, /style/scss/elements/html-elements.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* line 10, /style/scss/elements/html-elements.scss */
+
+/* line 14, /style/scss/elements/html-elements.scss */
+body {
+  font-family: "Helvetica Neue", Arial, Helvetica;
+  font-size: 100%;
+  max-width: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+
+/* line 20, /style/scss/elements/html-elements.scss */
+body.toolbar-tray-open.toolbar-vertical.toolbar-fixed {
+  margin-left: 0;
+  padding-left: 15rem;
+}
+
+
+/* line 25, /style/scss/elements/html-elements.scss */
+a {
+  text-decoration: none;
+  color: #047aab;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+/* line 29, /style/scss/elements/html-elements.scss */
+a:hover {
+  text-decoration: underline;
+  color: rgba(4, 122, 171, 0.85);
+}
+
+
+/* line 36, /style/scss/elements/html-elements.scss */
+details {
+  border: none;
+}
+
+
+/* line 40, /style/scss/elements/html-elements.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* line 45, /style/scss/elements/html-elements.scss */
+
+/* line 49, /style/scss/elements/html-elements.scss */
+
+/* line 53, /style/scss/elements/html-elements.scss */
+/* line 55, /style/scss/elements/html-elements.scss */
+
+/* line 60, /style/scss/elements/html-elements.scss */
+/* line 62, /style/scss/elements/html-elements.scss */
+
+/* line 67, /style/scss/elements/html-elements.scss */
+
+/* line 71, /style/scss/elements/html-elements.scss */
+
+/* line 75, /style/scss/elements/html-elements.scss */
+
+/* line 79, /style/scss/elements/html-elements.scss */
+
+/* line 83, /style/scss/elements/html-elements.scss */
+
+/* line 87, /style/scss/elements/html-elements.scss */
+
+/* line 91, /style/scss/elements/html-elements.scss */
+

@@ -1,0 +1,109 @@
+duskyridges_o.default.all:
+  label: All
+  mediaQuery: 'all and (min-width: 0px)'
+  weight: 0
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.default
+duskyridges_o.default.narrow:
+  label: Narrow
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1023px)'
+  weight: 3
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.default
+duskyridges_o.default.normal:
+  label: Normal
+  mediaQuery: 'all and (min-width: 1024px) and (max-width: 1219px)'
+  weight: 4
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.default
+duskyridges_o.default.wide:
+  label: Wide
+  mediaQuery: 'all and (min-width: 1220px)'
+  weight: 5
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.default
+  
+duskyridges_o.standard.all:
+  label: All
+  mediaQuery: 'all and (min-width: 0px)'
+  weight: 0
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard
+duskyridges_o.standard.mobile_portrait:
+  label: Mobile Portrait
+  mediaQuery: 'all and (max-width: 479px)'
+  weight: 1
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard
+duskyridges_o.standard.mobile_menu:
+  label: Mobile Menu
+  mediaQuery: 'all and (min-width: 480px)'
+  weight: 2
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard
+duskyridges_o.standard.mobile_landscape:
+  label: Mobile Landscape
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 767px)'
+  weight: 2
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard
+duskyridges_o.standard.narrow:
+  label: Narrow
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1023px)'
+  weight: 3
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard
+duskyridges_o.standard.normal:
+  label: Normal
+  mediaQuery: 'all and (min-width: 1024px) and (max-width: 1219px)'
+  weight: 4
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard
+duskyridges_o.standard.wide:
+  label: Wide
+  mediaQuery: 'all and (min-width: 1220px)'
+  weight: 5
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard  
+duskyridges_o.standard.hamburger:
+  label: Hamburger
+  mediaQuery: 'all and (min-width: 1000px)'
+  weight: 6
+  multipliers:
+    - 1x
+  status: true
+  langcode: en
+  group: duskyridges_o.standard  
