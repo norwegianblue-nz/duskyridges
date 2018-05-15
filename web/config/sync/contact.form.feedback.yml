@@ -1,0 +1,14 @@
+uuid: cac8a44c-a1ae-4860-9d24-6bb670abd45c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - info@duskyridges.nz
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

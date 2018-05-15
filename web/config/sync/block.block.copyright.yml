@@ -1,0 +1,25 @@
+uuid: 27784d77-3bf3-46c5-9b31-c09ed1727dbe
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:986d51a4-1ac9-4e09-a660-615870c770ec'
+  module:
+    - block_content
+  theme:
+    - duskyridges_o_
+id: copyright
+theme: duskyridges_o_
+region: postscript_fourth
+weight: -15
+provider: null
+plugin: 'block_content:986d51a4-1ac9-4e09-a660-615870c770ec'
+settings:
+  id: 'block_content:986d51a4-1ac9-4e09-a660-615870c770ec'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

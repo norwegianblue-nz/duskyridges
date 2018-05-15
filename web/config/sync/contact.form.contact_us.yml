@@ -1,0 +1,12 @@
+uuid: 3eed264c-bec9-4ca7-9219-ee3612e66fe2
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact us - footer'
+recipients:
+  - info@duskyridges.nz
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

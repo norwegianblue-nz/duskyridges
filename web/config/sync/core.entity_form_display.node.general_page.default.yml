@@ -1,0 +1,137 @@
+uuid: fd1893f7-8114-4ab1-93b9-5d0eea1654af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.general_page.field_bg_image
+    - field.field.node.general_page.field_content2
+    - field.field.node.general_page.field_main_content
+    - field.field.node.general_page.field_main_content_body
+    - field.field.node.general_page.field_metatags
+    - field.field.node.general_page.field_page_testimonial
+    - field.field.node.general_page.field_pageintroduction
+    - field.field.node.general_page.field_pagesummary
+    - field.field.node.general_page.field_slideshowimg
+    - field.field.node.general_page.field_visitorreview
+    - image.style.thumbnail
+    - node.type.general_page
+  module:
+    - field_collection
+    - image
+    - metatag
+    - path
+    - text
+id: node.general_page.default
+targetEntityType: node
+bundle: general_page
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_bg_image:
+    weight: 6
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_content2:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  field_main_content:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  field_main_content_body:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_metatags:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_pageintroduction:
+    weight: 8
+    settings:
+      rows: 5
+      placeholder: 'A short introductory paragraph'
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_slideshowimg:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_visitorreview:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  path:
+    type: path
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 121
+    third_party_settings: {  }
+    region: content
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  uid:
+    type: entity_reference_autocomplete
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_page_testimonial: true
+  field_pagesummary: true

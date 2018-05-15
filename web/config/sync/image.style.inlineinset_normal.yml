@@ -1,0 +1,21 @@
+uuid: 88eceba3-f998-4427-ae55-1fa659e51d4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: inlineinset_normal
+label: InlineInset_normal
+effects:
+  0826f54d-9fed-4088-8c91-ea93e1ed388c:
+    uuid: 0826f54d-9fed-4088-8c91-ea93e1ed388c
+    id: image_effects_strip_metadata
+    weight: 1
+    data: {  }
+  3b0dbf60-7ff1-47ad-9735-488ea834bff2:
+    uuid: 3b0dbf60-7ff1-47ad-9735-488ea834bff2
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 250
+      height: 165

@@ -1,0 +1,20 @@
+uuid: c927484f-0e2d-442a-8957-3c274bb3d63f
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - duskyridges_o_
+id: responsivemenumobileicon
+theme: duskyridges_o_
+region: menu
+weight: -6
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  provider: responsive_menu
+  label_display: '0'
+visibility: {  }

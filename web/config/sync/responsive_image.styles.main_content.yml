@@ -1,0 +1,40 @@
+uuid: f3f2b863-2ec1-4dcd-bc95-1748fab6ed94
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.maincontent_mobile
+    - image.style.maincontent_narrow
+    - image.style.maincontent_wide
+  theme:
+    - duskyridges_o_
+id: main_content
+label: main_content
+image_style_mappings:
+  -
+    breakpoint_id: duskyridges_o_.standard.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: maincontent_wide
+  -
+    breakpoint_id: duskyridges_o_.standard.normal
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: maincontent_wide
+  -
+    breakpoint_id: duskyridges_o_.standard.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: maincontent_narrow
+  -
+    breakpoint_id: duskyridges_o_.standard.mobile_landscape
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: maincontent_mobile
+  -
+    breakpoint_id: duskyridges_o_.standard.mobile_portrait
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: maincontent_mobile
+breakpoint_group: duskyridges_o_.standard
+fallback_image_style: maincontent_wide

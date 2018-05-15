@@ -1,0 +1,14 @@
+uuid: fe392f80-cfb9-4250-91f3-fa51ec61ee5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: inlinehalf
+label: InlineHalf
+effects:
+  f99efc18-eb96-4d09-bf43-aa1bbc960e7e:
+    uuid: f99efc18-eb96-4d09-bf43-aa1bbc960e7e
+    id: image_effects_strip_metadata
+    weight: 1
+    data: {  }

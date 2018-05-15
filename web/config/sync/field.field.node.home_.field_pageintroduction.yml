@@ -1,0 +1,21 @@
+uuid: f0678385-91c3-4b9f-9913-e2db0637ac11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pageintroduction
+    - node.type.home_
+  module:
+    - text
+id: node.home_.field_pageintroduction
+field_name: field_pageintroduction
+entity_type: node
+bundle: home_
+label: PageIntroduction
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

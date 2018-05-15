@@ -1,0 +1,25 @@
+uuid: 790d06d2-1a05-4f24-a683-dc5d1db34662
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:26adb809-64e6-45cc-a4a8-e6ab0b10f84f'
+  module:
+    - block_content
+  theme:
+    - duskyridges_o_
+id: address_2
+theme: duskyridges_o_
+region: footer_second
+weight: -15
+provider: null
+plugin: 'block_content:26adb809-64e6-45cc-a4a8-e6ab0b10f84f'
+settings:
+  id: 'block_content:26adb809-64e6-45cc-a4a8-e6ab0b10f84f'
+  label: Address
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

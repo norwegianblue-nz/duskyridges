@@ -1,0 +1,31 @@
+uuid: c7c42e16-f385-481c-b909-a090e90152e0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0b6fc508-ba67-4370-a757-84ba2a2c05ef'
+  module:
+    - block_content
+    - system
+  theme:
+    - duskyridges_o_
+id: bookandsocialiconshome
+theme: duskyridges_o_
+region: menu
+weight: -8
+provider: null
+plugin: 'block_content:0b6fc508-ba67-4370-a757-84ba2a2c05ef'
+settings:
+  id: 'block_content:0b6fc508-ba67-4370-a757-84ba2a2c05ef'
+  label: 'book and social icons home'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

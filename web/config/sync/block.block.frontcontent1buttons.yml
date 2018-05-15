@@ -1,0 +1,31 @@
+uuid: bf0be401-900a-4dcd-93d0-21a41701764d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:217487b4-bc5d-4f62-bd15-da748c2e54ef'
+  module:
+    - block_content
+    - system
+  theme:
+    - duskyridges_o_
+id: frontcontent1buttons
+theme: duskyridges_o_
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:217487b4-bc5d-4f62-bd15-da748c2e54ef'
+settings:
+  id: 'block_content:217487b4-bc5d-4f62-bd15-da748c2e54ef'
+  label: 'Front content 1 buttons'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

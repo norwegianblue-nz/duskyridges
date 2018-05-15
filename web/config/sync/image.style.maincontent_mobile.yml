@@ -1,0 +1,21 @@
+uuid: 9b437c28-e955-41fd-b1f7-42f51aa9db48
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: maincontent_mobile
+label: maincontent_mobile
+effects:
+  75ae95da-05ec-42ad-8b8f-1452e614f941:
+    uuid: 75ae95da-05ec-42ad-8b8f-1452e614f941
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 330
+      height: 217
+  7b8c3bcc-f46b-4e60-a6eb-787433a490f8:
+    uuid: 7b8c3bcc-f46b-4e60-a6eb-787433a490f8
+    id: image_effects_strip_metadata
+    weight: -10
+    data: {  }

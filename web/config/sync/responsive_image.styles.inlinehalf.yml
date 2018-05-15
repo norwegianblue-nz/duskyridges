@@ -1,0 +1,41 @@
+uuid: f99b51c2-dc18-40ad-945f-0d572436b642
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.inlinehalf_mobile
+    - image.style.inlinehalf_narrow
+    - image.style.inlinehalf_normal
+    - image.style.inlinehalf_wide
+  theme:
+    - duskyridges_o_
+id: inlinehalf
+label: HalfWidth
+image_style_mappings:
+  -
+    breakpoint_id: duskyridges_o_.standard.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlinehalf_wide
+  -
+    breakpoint_id: duskyridges_o_.standard.normal
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlinehalf_wide
+  -
+    breakpoint_id: duskyridges_o_.standard.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlinehalf_normal
+  -
+    breakpoint_id: duskyridges_o_.standard.mobile_landscape
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlinehalf_narrow
+  -
+    breakpoint_id: duskyridges_o_.standard.mobile_portrait
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlinehalf_mobile
+breakpoint_group: duskyridges_o.standard
+fallback_image_style: inlinehalf_wide

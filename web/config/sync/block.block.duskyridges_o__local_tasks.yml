@@ -1,0 +1,22 @@
+uuid: 6f824df6-d623-42e9-9662-fa7887c6d694
+langcode: en
+status: true
+dependencies:
+  theme:
+    - duskyridges_o_
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: duskyridges_o__local_tasks
+theme: duskyridges_o_
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,38 @@
+uuid: c0b6f076-77e9-4244-9793-b2865c9a59ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_visitorreview.field_author
+    - field.field.field_collection_item.field_visitorreview.field_place
+    - field.field.field_collection_item.field_visitorreview.field_review
+    - field_collection.field_collection.field_visitorreview
+id: field_collection_item.field_visitorreview.default
+targetEntityType: field_collection_item
+bundle: field_visitorreview
+mode: default
+content:
+  field_author:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_place:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_review:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }

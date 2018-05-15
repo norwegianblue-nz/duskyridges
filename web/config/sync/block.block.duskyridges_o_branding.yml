@@ -1,0 +1,23 @@
+uuid: 0290abc0-caca-4890-bccc-4fd310272b1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - duskyridges_o_
+id: duskyridges_o_branding
+theme: duskyridges_o_
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

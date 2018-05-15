@@ -1,0 +1,19 @@
+uuid: f059afac-3281-49b3-b4f5-4d51c10afa0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_section_title
+    - field_collection.field_collection.field_content2
+id: field_collection_item.field_content2.field_section_title
+field_name: field_section_title
+entity_type: field_collection_item
+bundle: field_content2
+label: 'Section Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

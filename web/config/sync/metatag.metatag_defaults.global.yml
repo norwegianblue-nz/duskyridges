@@ -1,0 +1,12 @@
+uuid: de692f46-b229-4904-9ac1-3ae89bce4b33
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5rOnjIF_aDyGBmfXNhJnkPXxQMlem0CmVmggV-TF3Fg
+id: global
+label: Global
+tags:
+  description: 'Information about farmstay bed and breakfast accommodation Dusky Ridges. Only minutes from Te Anau, it offers guests the opportunity to experience a working 200 hectare farm with  breathtaking panoramic views of Lake Te Anau and mountain ranges. Fiordland, New Zealand'
+  title: '[current-page:title] | [site:name]'
+  abstract: 'Information about farmstay bed and breakfast accommodation Dusky Ridges. Only minutes from Te Anau, it offers guests the opportunity to experience a working 200 hectare farm with  breathtaking panoramic views of Lake Te Anau and mountain ranges. Fiordland, New Zealand'

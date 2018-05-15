@@ -1,0 +1,21 @@
+uuid: ed6220f9-34ef-4f3f-9fec-37a8839f8b5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: inlineinset_wide
+label: InlineInset_wide
+effects:
+  0826f54d-9fed-4088-8c91-ea93e1ed388c:
+    uuid: 0826f54d-9fed-4088-8c91-ea93e1ed388c
+    id: image_effects_strip_metadata
+    weight: 1
+    data: {  }
+  3b0dbf60-7ff1-47ad-9735-488ea834bff2:
+    uuid: 3b0dbf60-7ff1-47ad-9735-488ea834bff2
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 330
+      height: 217

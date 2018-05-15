@@ -1,0 +1,21 @@
+uuid: d4c534d8-a985-4867-8b49-55168ed2ef3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_content_body
+    - node.type.home_
+  module:
+    - text
+id: node.home_.field_main_content_body
+field_name: field_main_content_body
+entity_type: node
+bundle: home_
+label: 'Main Content Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

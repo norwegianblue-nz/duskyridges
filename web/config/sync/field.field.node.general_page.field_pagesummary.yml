@@ -1,0 +1,21 @@
+uuid: 36ca6c82-075b-42f1-8f62-6776d5d0b339
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pagesummary
+    - node.type.general_page
+  module:
+    - text
+id: node.general_page.field_pagesummary
+field_name: field_pagesummary
+entity_type: node
+bundle: general_page
+label: PageSummary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

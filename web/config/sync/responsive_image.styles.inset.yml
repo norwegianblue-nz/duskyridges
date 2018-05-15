@@ -1,0 +1,42 @@
+uuid: 5674d2c9-9624-4f28-a51c-2ff13332f2cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.inlineinset_mo
+    - image.style.inlineinset_narrow
+    - image.style.inlineinset_normal
+    - image.style.inlineinset_tablet
+    - image.style.inlineinset_wide
+  theme:
+    - duskyridges_o_
+id: inset
+label: Inset
+image_style_mappings:
+  -
+    breakpoint_id: duskyridges_o_.standard.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_wide
+  -
+    breakpoint_id: duskyridges_o_.standard.normal
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_normal
+  -
+    breakpoint_id: duskyridges_o_.standard.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_narrow
+  -
+    breakpoint_id: duskyridges_o_.standard.mobile_landscape
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_tablet
+  -
+    breakpoint_id: duskyridges_o_.standard.mobile_portrait
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: inlineinset_mo
+breakpoint_group: duskyridges_o_.standard
+fallback_image_style: inlineinset_wide

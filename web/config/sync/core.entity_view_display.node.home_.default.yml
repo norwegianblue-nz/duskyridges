@@ -1,0 +1,46 @@
+uuid: 674d8651-6e1c-4dca-9948-d58e9cdf30fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.home_.field_bg_image
+    - field.field.node.home_.field_content2
+    - field.field.node.home_.field_main_content
+    - field.field.node.home_.field_main_content_body
+    - field.field.node.home_.field_metatags
+    - field.field.node.home_.field_page_testimonial
+    - field.field.node.home_.field_pageintroduction
+    - field.field.node.home_.field_pagesummary
+    - field.field.node.home_.field_slideshowimg
+    - field.field.node.home_.field_visitorreview
+    - node.type.home_
+  module:
+    - metatag
+    - user
+id: node.home_.default
+targetEntityType: node
+bundle: home_
+mode: default
+content:
+  field_metatags:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_bg_image: true
+  field_content2: true
+  field_main_content: true
+  field_main_content_body: true
+  field_page_testimonial: true
+  field_pageintroduction: true
+  field_pagesummary: true
+  field_slideshowimg: true
+  field_visitorreview: true

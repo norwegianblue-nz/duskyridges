@@ -1,0 +1,20 @@
+uuid: 78c4edeb-d95f-4a83-958a-75b97bccc72a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_pagesummary
+field_name: field_pagesummary
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

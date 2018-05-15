@@ -1,0 +1,38 @@
+uuid: 92707d1c-a214-40bc-977e-a5d1a30a726a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slideshowimg
+    - node.type.general_page
+  module:
+    - image
+id: node.general_page.field_slideshowimg
+field_name: field_slideshowimg
+entity_type: node
+bundle: general_page
+label: SlideShowImg
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

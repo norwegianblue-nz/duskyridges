@@ -1,0 +1,33 @@
+uuid: 0628173d-e59b-4305-9182-fdc10c6cbf8c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3fd5a998-a318-4ef7-bd87-dac6b62ad735'
+  module:
+    - block_content
+    - node
+  theme:
+    - duskyridges_o_
+id: homepagetitle
+theme: duskyridges_o_
+region: preface_third
+weight: 0
+provider: null
+plugin: 'block_content:3fd5a998-a318-4ef7-bd87-dac6b62ad735'
+settings:
+  id: 'block_content:3fd5a998-a318-4ef7-bd87-dac6b62ad735'
+  label: HomePageTitle
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      home_: home_
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

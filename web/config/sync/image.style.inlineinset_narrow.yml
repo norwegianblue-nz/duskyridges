@@ -1,0 +1,21 @@
+uuid: d9b6f901-3a6b-46a9-a9ae-6a3e9663e72b
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: inlineinset_narrow
+label: InlineInset_narrow
+effects:
+  0826f54d-9fed-4088-8c91-ea93e1ed388c:
+    uuid: 0826f54d-9fed-4088-8c91-ea93e1ed388c
+    id: image_effects_strip_metadata
+    weight: 1
+    data: {  }
+  3b0dbf60-7ff1-47ad-9735-488ea834bff2:
+    uuid: 3b0dbf60-7ff1-47ad-9735-488ea834bff2
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 330
+      height: 217

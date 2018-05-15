@@ -1,0 +1,21 @@
+uuid: ce61d11e-540d-41aa-b47e-784f45e75653
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pageintroduction
+    - node.type.general_page
+  module:
+    - text
+id: node.general_page.field_pageintroduction
+field_name: field_pageintroduction
+entity_type: node
+bundle: general_page
+label: PageIntroduction
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,20 @@
+uuid: 402b032c-f9c7-4288-9a56-e5643cd68a54
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - duskyridges_o_
+id: horizontalmenu
+theme: duskyridges_o_
+region: menu
+weight: -7
+provider: null
+plugin: responsive_menu_horizontal_menu
+settings:
+  id: responsive_menu_horizontal_menu
+  label: 'Horizontal menu'
+  provider: responsive_menu
+  label_display: '0'
+visibility: {  }

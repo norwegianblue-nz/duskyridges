@@ -1,0 +1,39 @@
+uuid: 4452d67b-9e15-41a3-9a99-4f35d91151f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_visitorreview.field_author
+    - field.field.field_collection_item.field_visitorreview.field_place
+    - field.field.field_collection_item.field_visitorreview.field_review
+    - field_collection.field_collection.field_visitorreview
+id: field_collection_item.field_visitorreview.default
+targetEntityType: field_collection_item
+bundle: field_visitorreview
+mode: default
+content:
+  field_author:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: 'Name of person who reviewed their stay'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_place:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: 'Where they come from (eg. Arizona)'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_review:
+    weight: 0
+    settings:
+      rows: 3
+      placeholder: 'Enter here the visitor review comments'
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden: {  }

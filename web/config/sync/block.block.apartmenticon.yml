@@ -1,0 +1,31 @@
+uuid: 7749aa83-7202-4d4b-92b6-718409c40dfa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5bc0aba8-3cfa-4e4e-a45f-970ce68f836f'
+  module:
+    - block_content
+    - system
+  theme:
+    - duskyridges_o_
+id: apartmenticon
+theme: duskyridges_o_
+region: preface_first
+weight: -8
+provider: null
+plugin: 'block_content:5bc0aba8-3cfa-4e4e-a45f-970ce68f836f'
+settings:
+  id: 'block_content:5bc0aba8-3cfa-4e4e-a45f-970ce68f836f'
+  label: 'Apartment icon'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /apartment
+    negate: false
+    context_mapping: {  }

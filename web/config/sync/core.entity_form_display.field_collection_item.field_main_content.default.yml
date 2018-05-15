@@ -1,0 +1,34 @@
+uuid: 7b354422-d52b-4ab1-be30-40bccc207d10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_main_content.field_main_content_img
+    - field.field.field_collection_item.field_main_content.field_main_content_txt
+    - field_collection.field_collection.field_main_content
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: field_collection_item.field_main_content.default
+targetEntityType: field_collection_item
+bundle: field_main_content
+mode: default
+content:
+  field_main_content_img:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_main_content_txt:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden: {  }

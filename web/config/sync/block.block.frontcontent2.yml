@@ -1,0 +1,31 @@
+uuid: 404b2e05-d2d7-4ba1-bcf5-c0de510424a3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7f1bd953-e1f3-403f-b2ad-c2f734b9ec6f'
+  module:
+    - block_content
+    - system
+  theme:
+    - duskyridges_o_
+id: frontcontent2
+theme: duskyridges_o_
+region: preface_second
+weight: -12
+provider: null
+plugin: 'block_content:7f1bd953-e1f3-403f-b2ad-c2f734b9ec6f'
+settings:
+  id: 'block_content:7f1bd953-e1f3-403f-b2ad-c2f734b9ec6f'
+  label: 'Front content 2'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

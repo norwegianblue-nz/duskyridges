@@ -1,0 +1,31 @@
+uuid: 98110b07-fd77-478a-b8d1-3459b266f3dc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f747b60f-7932-4b30-9bd1-c6adce2e0a95'
+  module:
+    - block_content
+    - system
+  theme:
+    - duskyridges_o_
+id: addressblockcontactpage
+theme: duskyridges_o_
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:f747b60f-7932-4b30-9bd1-c6adce2e0a95'
+settings:
+  id: 'block_content:f747b60f-7932-4b30-9bd1-c6adce2e0a95'
+  label: 'Address block - contact page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact/website_enquiry_and_address_page
+    negate: false
+    context_mapping: {  }

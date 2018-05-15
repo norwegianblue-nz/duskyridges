@@ -1,0 +1,21 @@
+uuid: 7646e0c8-c46c-4a91-8beb-a1c65d516edc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_content_body
+    - node.type.general_page
+  module:
+    - text
+id: node.general_page.field_main_content_body
+field_name: field_main_content_body
+entity_type: node
+bundle: general_page
+label: 'Main Content Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

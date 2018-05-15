@@ -1,0 +1,25 @@
+uuid: b1e6166b-0947-4e9c-bfe3-cd3635f3876a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:55090f38-206f-4856-8c9c-521418e76fa5'
+  module:
+    - block_content
+  theme:
+    - duskyridges_o_
+id: socialmediaforpages
+theme: duskyridges_o_
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:55090f38-206f-4856-8c9c-521418e76fa5'
+settings:
+  id: 'block_content:55090f38-206f-4856-8c9c-521418e76fa5'
+  label: 'Social Media for pages'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

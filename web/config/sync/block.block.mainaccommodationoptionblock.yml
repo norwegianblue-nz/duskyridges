@@ -1,0 +1,25 @@
+uuid: 6c5be092-a220-4e5d-a44b-57a9debb18e2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1c685b3a-7afc-41f5-8811-bcfe47b34320'
+  module:
+    - block_content
+  theme:
+    - duskyridges_o_
+id: mainaccommodationoptionblock
+theme: duskyridges_o_
+region: footer_second
+weight: -17
+provider: null
+plugin: 'block_content:1c685b3a-7afc-41f5-8811-bcfe47b34320'
+settings:
+  id: 'block_content:1c685b3a-7afc-41f5-8811-bcfe47b34320'
+  label: 'Main accommodation option block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

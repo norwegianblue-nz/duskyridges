@@ -1,0 +1,39 @@
+uuid: be3e7f72-67f0-4b0a-b0cd-5f42200a2e6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.headerslideshow
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - duskyridges_o_
+id: views_block__headerslideshow_block_1
+theme: duskyridges_o_
+region: preface_second
+weight: -11
+provider: null
+plugin: 'views_block:headerslideshow-block_1'
+settings:
+  id: 'views_block:headerslideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      general_page: general_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "/about-us\r\n/chalet\r\n/apartment\r\n/your-stay"
+    negate: false
+    context_mapping: {  }

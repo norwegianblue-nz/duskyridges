@@ -1,0 +1,22 @@
+uuid: f59264a0-a58d-42aa-8127-ea15ceef403c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - duskyridges_o_
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: duskyridges_o__breadcrumbs
+theme: duskyridges_o_
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

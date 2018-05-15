@@ -1,0 +1,42 @@
+uuid: 4b2087a7-0642-4a61-b12d-3193493fdbe1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_content2.field_content2_image
+    - field.field.field_collection_item.field_content2.field_content2_text
+    - field.field.field_collection_item.field_content2.field_section_title
+    - field_collection.field_collection.field_content2
+  module:
+    - image
+    - text
+id: field_collection_item.field_content2.default
+targetEntityType: field_collection_item
+bundle: field_content2
+mode: default
+content:
+  field_content2_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_content2_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_section_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

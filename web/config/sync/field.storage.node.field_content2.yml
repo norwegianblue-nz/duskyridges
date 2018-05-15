@@ -1,0 +1,19 @@
+uuid: 7a7e0154-ac98-4cb9-8243-af7fd0729b34
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - node
+id: node.field_content2
+field_name: field_content2
+entity_type: node
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

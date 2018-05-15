@@ -1,0 +1,38 @@
+uuid: 630ba613-74c2-4137-8a86-3b08674ac170
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.general_page.field_bg_image
+    - field.field.node.general_page.field_content2
+    - field.field.node.general_page.field_main_content
+    - field.field.node.general_page.field_main_content_body
+    - field.field.node.general_page.field_metatags
+    - field.field.node.general_page.field_page_testimonial
+    - field.field.node.general_page.field_pageintroduction
+    - field.field.node.general_page.field_pagesummary
+    - field.field.node.general_page.field_slideshowimg
+    - field.field.node.general_page.field_visitorreview
+    - node.type.general_page
+  module:
+    - user
+id: node.general_page.teaser
+targetEntityType: node
+bundle: general_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_bg_image: true
+  field_content2: true
+  field_main_content: true
+  field_main_content_body: true
+  field_metatags: true
+  field_page_testimonial: true
+  field_pageintroduction: true
+  field_pagesummary: true
+  field_slideshowimg: true
+  field_visitorreview: true

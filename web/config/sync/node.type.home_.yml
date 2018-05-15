@@ -1,0 +1,17 @@
+uuid: 385e5b68-c3b3-434c-9a8b-0d1d27e91619
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Home Page'
+type: home_
+description: 'This is ONLY for the home page. There should only be one of these in most instances.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

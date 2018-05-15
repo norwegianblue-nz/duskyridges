@@ -1,0 +1,47 @@
+uuid: fa9c3ec3-87f3-468f-bd56-35aeeb5e3d2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.genpageblocks
+  module:
+    - views
+  theme:
+    - duskyridges_o_
+id: views_block__genpageblocks_block_1_3
+theme: duskyridges_o_
+region: preface_second
+weight: -13
+provider: null
+plugin: 'views_block:genpageblocks-block_1'
+settings:
+  id: 'views_block:genpageblocks-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  fields:
+    field_pagesummary:
+      hide: true
+      weight: 0
+    field_main_content:
+      hide: true
+      weight: 0
+    field_main_content_body:
+      hide: true
+      weight: 0
+    field_content2:
+      weight: 0
+      hide: false
+    field_page_testimonial:
+      hide: true
+      weight: 0
+    field_visitorreview:
+      hide: true
+      weight: 0
+    field_pageintroduction:
+      hide: true
+      weight: 0
+  context_mapping: {  }
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: b504c862-cb1d-44ec-a7e7-98c45d98cb80
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: inlinehalf_narrow
+label: InlineHalf_narrow
+effects:
+  f99efc18-eb96-4d09-bf43-aa1bbc960e7e:
+    uuid: f99efc18-eb96-4d09-bf43-aa1bbc960e7e
+    id: image_effects_strip_metadata
+    weight: 1
+    data: {  }
+  21786491-f3a1-41ee-b8be-6065668b21a6:
+    uuid: 21786491-f3a1-41ee-b8be-6065668b21a6
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 748
+      height: 493

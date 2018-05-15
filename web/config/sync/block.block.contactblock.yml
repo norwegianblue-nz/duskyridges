@@ -1,0 +1,23 @@
+uuid: cbc6ea4e-849e-44b8-a51e-39739beda0d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+  module:
+    - contact_block
+  theme:
+    - duskyridges_o_
+id: contactblock
+theme: duskyridges_o_
+region: footer_second
+weight: -16
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact us'
+  provider: contact_block
+  label_display: visible
+  contact_form: feedback
+visibility: {  }

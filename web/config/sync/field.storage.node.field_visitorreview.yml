@@ -1,0 +1,19 @@
+uuid: 73669c9c-f5b2-452d-85d2-e75fb3637d14
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - node
+id: node.field_visitorreview
+field_name: field_visitorreview
+entity_type: node
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

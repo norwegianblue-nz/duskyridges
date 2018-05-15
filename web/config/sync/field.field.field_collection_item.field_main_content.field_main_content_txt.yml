@@ -1,0 +1,21 @@
+uuid: 0b83856b-f692-4936-81c3-c3b483f86f02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_main_content_txt
+    - field_collection.field_collection.field_main_content
+  module:
+    - text
+id: field_collection_item.field_main_content.field_main_content_txt
+field_name: field_main_content_txt
+entity_type: field_collection_item
+bundle: field_main_content
+label: main-content_txt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

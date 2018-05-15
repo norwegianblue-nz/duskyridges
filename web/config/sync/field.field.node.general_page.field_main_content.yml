@@ -1,0 +1,23 @@
+uuid: b7fcfb09-bc0a-42ec-ab81-55e29c06fe84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_content
+    - node.type.general_page
+  module:
+    - field_collection
+id: node.general_page.field_main_content
+field_name: field_main_content
+entity_type: node
+bundle: general_page
+label: 'Main Content Collections'
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection
